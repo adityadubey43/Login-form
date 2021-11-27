@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/Styles.css">
+</head>
+<body>
+    <header id="Website-header" class="Website-header">
+        <nav id="navbar" class="nevbar">
+            <div class ="logo"><img class = "logo" src="./assets/images/Instagram.png" alt="website logo"></div>
+            <div id="menu" class="menu">
+                <ul id="menu-ulist">
+                    <li class="menu-list">
+                        <a href="./Index.html">Home</a>
+                    </li>
+                    <li class="menu-list">Pricing</li>
+                    <li class="menu-list">About us</li>
+                    <li class="menu-list">
+                        <a href="Login.html">Login</a>
+                    </li>
+                    <li class="menu-list">
+                        <a href="Register.html">Register</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <button id="menu-button" onclick="Collaps()">Menu</button>
+        </nav>
+    </header>
+    <br>
+    <div class="PageHeading">
+        <H1>
+            Login
+        </H1>
+    </div>
+    <br>
+    <div class="formcontainer">
+        <div class="form">
+            <form onsubmit="Login()">
+                <label for="email">email</label><br>
+                <input type="email" placeholder="enter email" id="email" required><br>
+                <label for="password">password</label><br>
+                <input type="password" placeholder="enter password" id="password" required><br>
+                <button >submit</button>
+                <a href="Register.html" style="font-size: 13px;">forgot password</a>
+                <p style="font-size: 15px;margin-top: 4px">if you do not have an account</p>
+                <a href="Register.html" style="font-size: 15px;">Register</a>
+            </form>    
+        </div>
+        <img id = "loginimage"src="./assets/images/Login background.png" alt="">   
+        </div>
+    </div>
+    <footer>
+        <div class="footercont">
+            <div class ="logo"><img class = "logo" src="./assets/images/Instagram.png" alt="website logo"></div>
+            <div class ="logo"><img class = "logo" src="./assets/images/Instagram.png" alt="website logo"></div>
+    
+        </div>
+        <div class="copyright">
+            All rigts are reserved to Aditya
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

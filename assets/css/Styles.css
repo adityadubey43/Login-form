@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: larger;
+}
+.Website-header{
+    /* border: 2px solid black; */
+    background-color: #D8DBE2;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.menu-list{
+    margin-right: 15px;
+    display: inline-block;
+    padding: 5px;
+    align-items: center;
+    /* list-style: none; */
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+}
+a:hover{
+    color: #ff0000;
+    transition:  color 1s;
+    
+}
+#menu-button{
+    display: none;
+}
+.PageHeading{
+    display: flex;
+    justify-content: center;
+}
+.formcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+   
+    background-color: #FFDAC6;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+}
+.form{
+    /* border: 2px solid black; */
+    margin: 20px 20px 20px 20px;
+}
+#loginimage{
+    height: 208px;
+    width: 312px;
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+.bodyblank{
+    height:700px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+.copyright{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 13px;
+}
+@media only screen and (max-width: 600px) {
+    #menu-button{
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+    #menu{
+        display: none;
+    }
+    .menu-list{
+        display: block;
+        padding: 5px;
+        /* list-style: none; */
+    }
+    #loginimage{
+        height: 160px;
+        /* border: 2px solid black; */
+    }
+    
+}
